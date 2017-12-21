@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html, body, .box {
+  width: 100%;
+  background: #EEEEEE;
+  height: 100%;
+  overflow-x: hidden; }
+
+html {
+  font-size: 62.5%; }
+
+.box {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+header {
+  width: 100%;
+  height: 4rem;
+  background: white;
+  display: flex; }
+  header span {
+    flex: 1;
+    text-align: center;
+    line-height: 4rem;
+    color: #53cac3;
+    font-size: 1.6rem; }
+  header p {
+    flex: 3;
+    line-height: 4rem; }
+    header p input {
+      width: 100%;
+      height: 2.5rem;
+      line-height: 2.5rem;
+      text-align: center;
+      border-radius: 1rem;
+      border: none;
+      outline: none;
+      background: #ebeced; }
+
+section {
+  flex: 1;
+  overflow-y: scroll;
+  position: relative; }
+  section #mask {
+    position: fixed;
+    left: 0;
+    top: 8rem;
+    z-index: 999;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.5); }
+  section ul {
+    top: 4rem;
+    z-index: 11;
+    position: fixed;
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    display: flex;
+    background: white;
+    border-bottom: 0.1rem solid #ccc; }
+    section ul > li {
+      text-align: center;
+      flex: 1;
+      font-size: 1.4rem; }
+      section ul > li span {
+        font-size: 1.2rem !important;
+        color: #ccc; }
+  section .oll {
+    z-index: 20;
+    position: fixed;
+    top: 8rem;
+    background: white;
+    width: 400%; }
+    section .oll li {
+      padding-left: 0.5rem;
+      width: 100%;
+      height: 3rem;
+      line-height: 3rem;
+      font-size: 1.6rem;
+      border-bottom: 0.1rem solid #ccc;
+      text-align: left; }
+  section .center {
+    margin-top: 4rem; }
+  section dl {
+    margin: 0.5rem 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow: hidden; }
+    section dl dd {
+      flex: 2; }
+      section dl dd img {
+        width: 90%;
+        height: auto;
+        display: block; }
+    section dl dt {
+      flex: 3; }
+      section dl dt p {
+        font-size: 1.6rem; }
+      section dl dt em {
+        font-style: normal;
+        display: block;
+        color: #f60; }
+      section dl dt b {
+        font-size: 1.6rem;
+        color: red;
+        display: block; }
+      section dl dt span {
+        font-size: 1.4rem;
+        display: block; }
+      section dl dt i {
+        font-style: normal;
+        font-size: 1.4rem;
+        color: #ccc; }
+
+/*# sourceMappingURL=style.css.map */

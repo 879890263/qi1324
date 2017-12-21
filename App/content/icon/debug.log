@@ -1,0 +1,2 @@
+[0205/202452:ERROR:http_transport_win.cc(50)] WinHttpSendRequest: 无法解析服务器的名称或地址  (0x2EE7)
+[0208/092625:ERROR:http_transport_win.cc(50)] WinHttpSendRequest: 无法解析服务器的名称或地址  (0x2EE7)

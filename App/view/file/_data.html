@@ -1,0 +1,27 @@
+<div>
+    <div id="mask" ng-show="pan"></div>
+<ul id="ull">
+    <li ng-repeat="data in title" ng-click="cr(data,pan)" class="uli">{{data.title}}<span class="iconfont">&#xe6e3;</span>
+     </li> 
+    </ul>
+     <ol class="oll" ng-show="pan">
+         <li ng-repeat="dat in arr" ng-click="cfac(dat,title)">{{dat}}</li>
+    </ol>
+   
+    
+   <div class="center">
+  
+ <dl ng-repeat="key in data | filter:file | orderBy:dome">
+     <dd><img ng-src="{{key.img}}" alt=""></dd>
+     <dt>
+         <p>{{key.title}}</p>
+         <em>{{key.string}}</em>
+         <b>￥{{key.price}}</b>
+         <span>{{key.city}}</span>
+         <i>{{key.type}}</i>
+         <strong>{{key.prc1}}-{{key.prc2}}-{{key.prc3}}</strong>
+         
+     </dt>
+ </dl>
+    </div>
+</div>  
